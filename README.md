@@ -50,3 +50,39 @@ git log
 To create version/commit all changes by git 
 '''
 git commit -m "message"
+
+To change/version to git hub 
+
+'''
+git push origin main
+'''
+
+To get remote url 
+
+''' 
+git remote -v
+'''
+
+
+BUILD DOCKER IMAGE
+'''
+docker build -t <image_name>:<tagname> .
+
+> Note: Image name for docker must be lowercase 
+
+To list docker images 
+'''
+docker images
+'''
+
+Run docker image
+'''
+docker run -p 5000:5000 -e PORT=5000 d7f2f1e326e2
+
+To check running container in docker
+'''
+docker ps
+'''
+To stop any docker container
+'''
+docker stop <container_id>
