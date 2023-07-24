@@ -93,3 +93,10 @@ Tos stop docker conatiner
 ```
 docker stop <container_id>
 ```
+
+To install all the libraries mention after creating setup.py file 
+
+'''
+python setup.py install
+'''
+

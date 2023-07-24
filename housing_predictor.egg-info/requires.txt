@@ -1,5 +1,5 @@
 numpy
-Flask 
+Flask
 gunicorn
 sklearn
-pandas 
+pandas
