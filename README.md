@@ -100,3 +100,7 @@ To install all the libraries mention after creating setup.py file
 python setup.py install
 '''
 
+Install ipynbkernel
+'''
+pip install ipykernel
+'''
